@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- index-554:30-->
+<head>
+	<!--===== Meta Tag =====-->
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="Runaway - Personal Portfolio HTML Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content=" creative, personal, linked page, resume, responsive, bootstrap, photography, designer, developer">
+	<meta name="author" content="root">
+
+	 <!--	Css Links
+    ==================================================-->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+
+     <!-- Favicon 
+    ==================================================-->
+	<!-- <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico"> -->
+
+      <!--	Title
+    ==================================================-->
+	<title>Kaula Clement</title>
+
+</head>
+
+<body id="top" class="page-load">
+	<!--	Start Back to top
+	=================================================-->
+	<a href="#" id="scroll" style="display: none;"><span></span></a>
+	<!--	End Back to top
+	==================================================-->
+
+	<!--	Preloader
+	==================================================-->
+	<div class="preloader">
+		<div class="lds-css ng-scope">
+			<div class="lds-spinner" style="width:100%;height:100%">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+	
+
+<!-- Wrapper Start 
+==================================================-->
+<div id="page_wrapper">
+	<div class="row">
+	<!-- Start Nav Menu 
+	==============================================-->
+	<header class="main_nav">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light w-100"> 
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+					  <li class="nav-item"><a class="nav-link active" href="#top">Home<span class="sr-only">(current)</span></a></li>
+					  <!-- <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li> -->
+					</ul>
+				</div>		
+			</nav>
+		</div>	
+	</header>
+	
+	<!-- End Nav Menu
+	==================================================-->
+	
+	<!--	Start Main Banner 
+	==================================================-->
+	<section class="p-5 m-5">
+		<div class="row align-items-center p-5 m-5">
+			<div class="col-md-12 col-lg-12 ">
+			   <form action="">
+				<div>
+					<h2 class="text-center">Student Registration</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" class="form-control">
+					</div> 
+					<br>
+					<div class="col-md-6">
+						<label for="date_of_birth">Date of Birth</label>
+						<input type="date" name="date_of_birth" id="date_of_birth"  class="form-control">
+					</div>
+					<div class="col-md-6">
+						<label for="gender">Gender</label>
+						<select name="gender" id="gender" class="form-control">
+							<option value="male">MALE</option>
+							<option value="female">FEMALE</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<label for="address">Address</label>
+						<textarea name="address" id="address" cols="4" rows="4" class="form-control">
+	
+						</textarea>
+					</div>
+					<div class="col-md-6">
+						<label for="phone">Telephone</label>
+						<input type="number" name="phone" id="phone"  class="form-control"> 
+					</div>
+					<div class="col-md-6">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email"  class="form-control">
+					</div>
+					<div class="col-md-6">
+						<label for="Course">Course</label>
+						<select name="Course" id="Course" class="form-control">
+							<option value="wb-t">Web technologies</option>
+							<option value="pth">Python</option>
+							<option value="flt">Flutter</option>
+							<option value="git">Git</option>
+						</select>
+					</div>
+
+					
+					
+				</div>
+				<div class="row px-5 mx-5">
+					<input type="submit" value="Register" class="btn btn-sm round btn-primary">
+					<input type="button" value="Cancel" class=" btn btn-sm btn-secondary ml-auto">
+
+				</div>
+			   </form>
+			</div>          
+		</div>
+	</section>
+
+	
+	</div>
+</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+		$(document).ready(function() {
+		//  Smoothscroll js
+		//=========================================
+		  $("a").on('click', function(event) {
+
+			  if (this.hash !== "") {
+				event.preventDefault();
+			  
+				var hash = this.hash;
+
+				$('html, body').animate({
+				  scrollTop: $(hash).offset().top 
+				}, 1000, function(){
+			  
+				  window.location.hash = hash;
+				});
+			  }
+			});
+		 });
+	</script>
+</body>
+
+<!-- index-554:31-->
+</html>
