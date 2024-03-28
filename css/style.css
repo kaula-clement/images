@@ -1182,9 +1182,9 @@ ul#menu li a{
   font-size: 14px;
   height: calc(30px + 15px);
   margin-bottom: 30px;
-  border-radius: 0px;
+  /* border-radius: 0px;
   border: none;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid; */
 }
 .form-control:focus{
     outline: 0;

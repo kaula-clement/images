@@ -81,27 +81,67 @@
 	
 	<!--	Start Main Banner 
 	==================================================-->
-	<section id="main_banner" class="banner_image background1 overlay_one">
-		<div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-md-12 col-lg-12 home-content text-left">
-                    <div class="mainbanner_content">
-                        <span class="pb_5 banner_title text-white">I Am Clement Kaula!</span>  
-                        <h1 class="cd-headline clip is-full-width text-uppercase">
-                            <span class="text-white">I am a</span>
-                            <span class="cd-words-wapper text-white">
-                                <b class="is-viible">Developer</b>
-                                <!-- <b>Developer.</b>
-                                <b>Freelancer.</b> -->
-                            </span>
-                        </h1>
-                        <p class="text-white mb_30">This is a sample linked images website to learn more about web technlogies. from PowerLean !</p>
-                        <!-- <a class="btn btn-default" href="#">Download CV</a> -->
-                    </div>
-                </div>          
-            </div>
-        </div>
-    </section>
+	<section class="p-5 m-5">
+		<div class="row align-items-center p-5 m-5">
+			<div class="col-md-12 col-lg-12 ">
+			   <form action="">
+				<div>
+					<h2 class="text-center">Student Registration</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" class="form-control">
+					</div> 
+					<br>
+					<div class="col-md-6">
+						<label for="date_of_birth">Date of Birth</label>
+						<input type="date" name="date_of_birth" id="date_of_birth"  class="form-control">
+					</div>
+					<div class="col-md-6">
+						<label for="gender">Gender</label>
+						<select name="gender" id="gender" class="form-control">
+							<option value="male">MALE</option>
+							<option value="female">FEMALE</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<label for="address">Address</label>
+						<textarea name="address" id="address" cols="4" rows="4" class="form-control">
+	
+						</textarea>
+					</div>
+					<div class="col-md-6">
+						<label for="phone">Telephone</label>
+						<input type="number" name="phone" id="phone"  class="form-control">
+					</div>
+					<div class="col-md-6">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email"  class="form-control">
+					</div>
+					<div class="col-md-6">
+						<label for="Course">Course</label>
+						<select name="Course" id="Course" class="form-control">
+							<option value="wb-t">Web technologies</option>
+							<option value="pth">Python</option>
+							<option value="flt">Flutter</option>
+							<option value="git">Git</option>
+						</select>
+					</div>
+
+					
+					
+				</div>
+				<div class="row px-5 mx-5">
+					<input type="submit" value="Register" class="btn btn-sm round btn-primary">
+					<input type="button" value="Cancel" class=" btn btn-sm btn-secondary ml-auto">
+
+				</div>
+			   </form>
+			</div>          
+		</div>
+	</section>
+
 	
 	</div>
 </div>
